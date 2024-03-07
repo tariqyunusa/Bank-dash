@@ -21,7 +21,9 @@ const config: Config = {
       },
       colors: {
         settings: "#718EBF",
-        secondary: "#FE5C73"
+        secondary: "#FE5C73",
+        auxilary: "#B1B1B1",
+        secondary1: "#2D60FF"
       }
     },
   },

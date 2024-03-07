@@ -8,8 +8,8 @@ import SearchBAr from './components/SearchBar';
 
 const Nav = () => {
   return (
-    <nav className='w-full h-24 bg-white p-8 flex'>
-        <div className='w-1/6 relative  h-full '>
+    <nav className='w-full h-24 bg-white p-8 flex items-center '>
+        <div className='w-1/6 relative  h-full right-10'>
             <Image fill src={Logo} alt='logo' priority/>
         </div>
         <div className='w-5/6 h-12 flex justify-between items-center'>
