@@ -14,16 +14,26 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       width: {
-        "120" : "28rem"
+        "120" : "28rem",
+        "400" : "85.00rem"
+      },
+      height: {
+        "200" : "42.55rem"
       },
       backgroundColor:{
-        rings: "#F5F7FA"
+        rings: "#F5F7FA",
+        primaryCard: "#4C49ED"
       },
       colors: {
         settings: "#718EBF",
         secondary: "#FE5C73",
         auxilary: "#B1B1B1",
-        secondary1: "#2D60FF"
+        secondary1: "#2D60FF",
+        seondary2: "#343C6A",
+
+      },
+      linearGradientColors: {
+        'ash-blue' : ["#4C49ED","#0A06F4"]
       }
     },
   },
