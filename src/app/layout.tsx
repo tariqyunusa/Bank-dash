@@ -26,10 +26,10 @@ export default function RootLayout({
     
       <body className="relative">
         {children}
-        <div className="absolute w-400 bg-slate-100 top-24 left-60 h-200 flex column p-6">
+        <div className="absolute w-10/12 bg-slate-100 top-24 left-60 h-200 flex column p-4">
           <div className="w-full flex">
-            <div className="flex w-full h-56 gap-4 ">
-              <div className="flex justify-between w-2/3 text-seondary2 text-xl flex-col gap-2 " >
+            <div className="flex w-full h-54 gap-10 ">
+              <div className="flex justify-between w-2/3 text-secondary2 text-xl flex-col gap-2 h-fit" >
                 <div className="flex justify-between w-full ">
                 <h4>My Cards</h4>
                 <Link href="/"><p>See All</p></Link>
@@ -39,7 +39,11 @@ export default function RootLayout({
 
                 </div>
               </div>
-              <div className="w-1/3 bg-black justify-self-auto"></div>
+              <div className="w-150 justify-self-auto h-full">
+                <div className="">
+                  {Recents}
+                </div>
+              </div>
             </div>
           </div>
         </div>

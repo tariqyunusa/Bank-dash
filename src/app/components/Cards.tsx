@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Cards = ({color, amount, name} : any) => {   
   return (
-    <div className={`w-80 h-56 bg-primaryCard rounded-lg flex flex-col text-white p-4 gap-6 `}>
+    <div className={`w-80 h-52 bg-primaryCard rounded-lg flex flex-col text-white p-4 gap-6 `}>
       <div className='w-full flex justify-between  '>
        <div className='flex gap-1 flex-col '>
        <p className='text-base'>Balance</p>

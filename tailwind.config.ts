@@ -15,10 +15,12 @@ const config: Config = {
       },
       width: {
         "120" : "28rem",
-        "400" : "85.00rem"
+        "400" : "85.00rem",
+        "150" : "26.875rem"
       },
       height: {
-        "200" : "42.55rem"
+        "200" : "42.55rem",
+        "70" : "15rem"
       },
       backgroundColor:{
         rings: "#F5F7FA",
@@ -29,7 +31,7 @@ const config: Config = {
         secondary: "#FE5C73",
         auxilary: "#B1B1B1",
         secondary1: "#2D60FF",
-        seondary2: "#343C6A",
+        secondary2: "#343C6A",
 
       },
       linearGradientColors: {
